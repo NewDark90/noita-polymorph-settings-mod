@@ -1,0 +1,7 @@
+{
+    "Lua.diagnostics.globals": [
+        "mod_settings_version",
+        "mod_settings",
+        "ModSettingGet"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "noita-polymorph-settings-mod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "copy": "node scripts/copy.js",
+    "local_publish": "npm run build && npm run copy",
+    "publish": "npm run local_publish && powershell.exe .\\scripts\\publish.ps1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewDark90/noita-polymorph-settings-mod.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/NewDark90/noita-polymorph-settings-mod/issues"
+  },
+  "homepage": "https://github.com/NewDark90/noita-polymorph-settings-mod#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.0",
+    "replace-in-files": "^3.0.0"
+  },
+  "dependencies": {
+  }
+}
